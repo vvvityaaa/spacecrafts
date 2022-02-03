@@ -1,0 +1,9 @@
+[
+  {"model": "components.category", "pk": 1, "fields": {"title": "Power Source"}},
+  {"model": "components.category", "pk": 2, "fields": {"title": "Electronics"}},
+  {"model": "components.category", "pk": 3, "fields": {"title": "Engines"}},
+  {"model": "components.component", "pk": 1, "fields": {"title": "Solid propellant", "description": "A solid propellant consists of several chemical ingredients such as oxidizer, fuel, binder, plasticizer, curing agent, stabilizer, and cross-linking agent.", "category": 1}},
+  {"model": "components.component", "pk": 2, "fields": {"title": "Liquid oxygen tank", "description": "Stationary, vacuum-insulated pressure vessels", "category": 1}},
+  {"model": "components.component", "pk": 3, "fields": {"title": "Remote manipulator system", "description": "Robotic arms", "category": 2}},
+  {"model": "components.component", "pk": 4, "fields": {"title": "Main engine", "description": "Main internal combustion engine", "category": 3}}
+]
